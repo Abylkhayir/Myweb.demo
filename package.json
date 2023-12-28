@@ -1,0 +1,37 @@
+{
+	"homepage": "https://Abylkhayir.github.io/Myweb.demo",
+  "name": "esportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+	 "deploy": "gh-pages -d build",
+	 "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "@next/font": "^13.4.4",
+    "framer-motion": "^10.15.0",
+    "i": "^0.3.7",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-tsparticles": "^2.9.3",
+    "swiper": "^9.4.0",
+    "tailwind-scrollbar": "^3.0.4",
+    "tsparticles": "^2.9.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}
